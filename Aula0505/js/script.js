@@ -13,3 +13,9 @@ while(y<=3);
     console.log(arr[y]);
     y++
 
+var palavra = "Bruno";
+var i = 0;
+
+while(i<=5) {
+    console.log(palvara[i])
+}
