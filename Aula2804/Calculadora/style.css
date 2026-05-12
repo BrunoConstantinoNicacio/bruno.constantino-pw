@@ -1,0 +1,23 @@
+* {
+    background-color: lightgray;
+}
+.botao {
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    transition: transform 0.3s ease;
+    color: white;
+    font-family: cursive;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}   
+.botao:hover {
+    transform: scale(1.1);
+}
+.texto{
+    font-family: monospace, lucida console;
+    font-weight: bold;
+}
+.input {
+    border-radius: 15px;
+}

@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Calculadora</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <script src="js/calculo.js"></script>
 <body>
-    <h1>Minha Calculadora</h1>
-    Primeiro Número <br>
-    <input type="number" id="n1"><br>
-    Segundo Número <br>
-    <input type="number" id="n2"> <br> <br>
-    <button onclick="somar()">Somar</button>
-    <button onclick="subtrair()">Subtrair</button>
-    <button onclick="multiplicar()">Multiplicar</button>
-    <button onclick="dividir()">Dividir</button>
-    <button onclick="triangulo()">Área do triângulo</button>
-    <button onclick="quadrado()">Área do quadrado</button>
-    <br>
-    O resultado é <span id="resultado"></span>
+    <h1><div class="texto">Minha Calculadora</div></h1>
+    <div class="texto">Primeiro Número</div>
+    <input type="number" id="n1" class="input"><br>
+    <div class="texto">Segundo Número</div>
+    <input type="number" id="n2" class="input"><br>
+    <button onclick="somar()" class="botao">Somar</button>
+    <button onclick="subtrair()" class="botao">Subtrair</button>
+    <button onclick="multiplicar()" class="botao">Multiplicar</button>
+    <button onclick="dividir()" class="botao">Dividir</button>
+    <button onclick="triangulo()" class="botao">Área do triângulo</button>
+    <button onclick="quadrado()" class="botao">Área do quadrado</button><br>
+    <span id="resultado" class="texto"></span><br><br>
+    <div class="texto">Terceiro Número</div>
+    <input type="number" id="n3" class="input"><br>
+    <button onclick="dez()" class="botao">Retirar 10%</button>
+    <button onclick="lucro()" class="botao">Lucro 15%</button>
+    <button onclick="desconto()" class="botao">Desconto 3%</button>
+    <button onclick="se()" class="botao">Botão Se?</button><br>
+    <span id="resultado2" class="texto"></span>
     <script src="js/calculo.js"></script>
 </body>
 </html>
