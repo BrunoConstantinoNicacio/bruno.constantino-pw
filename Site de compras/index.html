@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Compras</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <h1>Lojinha do Bruno</h1><br>
+    <table border="1">
+        <tr>
+            <td>Imagem</td>
+            <td>Produto</td>
+            <td>Preço Unitário</td>
+            <td>Qtd</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://horizonplay.fbitsstatic.net/img/p/apple-iphone-13-pro-max-256gb-5g-vitrine-tela-super-retina-xdr-oled-6-7-cor-azul-sierro-150383/336975.jpg?w=670&h=670&v=no-value" alt="Imagem Iphone" class="imagens">
+            </td>
+            <td>
+                <p>Celular Iphone 13 Pro Max</p>
+                <p>Codigo 1234#AE</p>
+                <p>Cor Branca</p>
+            </td>
+            <td class="valor">10000</td>
+            <td>
+                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="qntd">0</div>
+                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+            </td>
+            <td class="total">0</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://imgs.casasbahia.com.br/1566534292/1xg.jpg?imwidth=500" alt="Imagem Tv Samsung" class="imagens">
+            </td>
+            <td>
+                <p>Televisão Samsung 70 Polegadas</p>
+                <p>5678#AE</p>
+                <p>Cor Preta</p>
+            </td>
+            <td class="valor">7000</td>
+            <td>
+                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="qntd">0</div>
+                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+            </td>
+            <td class="total">0</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://images.tcdn.com.br/img/img_prod/625110/notebook_alienware_16x_aurora_16_core_ultra_9_275hx_32gb_nvidia_rtx_5070_2tb_sdd_7589_1_995275de029d96c2934035376e0e3dfd.jpg" alt="Imagem Notebook" class="imagens">
+            </td>
+            <td>
+                <p>Notebook Alienware Aurora 16X</p>
+                <p>9101#AE</p>
+                <p>Cor Preta</p>
+            </td>
+            <td class="valor">22000</td>
+            <td>
+                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="qntd">0</div>
+                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+            </td>
+            <td class="total">0</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
