@@ -1,5 +1,5 @@
 function adicionar(botao) {
-    var trtable = botao.parentNode.parentNode;
+    var trtable = botao.parentNode.parentNode.parentNode;
     var valor = trtable.querySelector(".valor");
     var total = trtable.querySelector(".total");
     var qntd = trtable.querySelector(".qntd");
@@ -9,7 +9,7 @@ function adicionar(botao) {
 
 }
 function retirar(botao) {
-    var trtable = botao.parentNode.parentNode;
+    var trtable = botao.parentNode.parentNode.parentNode;
     var valor = trtable.querySelector(".valor");
     var total = trtable.querySelector(".total");
     var qntd = trtable.querySelector(".qntd");

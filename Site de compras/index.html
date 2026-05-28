@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Compras</title>
     <link rel="stylesheet" href="style.css"></link>
+    <!-- FONTE NOVA  EMBAIXO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Lojinha do Bruno</h1><br>
-    <table border="1">
+    <div class="container">
+    <h1>LOJINHA DO BRUNO</h1>
+    <table>
         <tr>
-            <td>Imagem</td>
-            <td>Produto</td>
-            <td>Preço Unitário</td>
-            <td>Qtd</td>
-            <td>Total</td>
+            <td class="texto">Imagem</td>
+            <td class="texto">Produto</td>
+            <td class="texto">Preço Unitário</td>
+            <td class="texto">Qtd</td>
+            <td class="texto">Total</td>
         </tr>
         <tr>
             <td>
@@ -27,9 +35,11 @@
             </td>
             <td class="valor">10000</td>
             <td>
-                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="linhabotao">
+                <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                </div>
             </td>
             <td class="total">0</td>
         </tr>
@@ -44,9 +54,11 @@
             </td>
             <td class="valor">7000</td>
             <td>
-                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="linhabotao">
+                <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                </div>
             </td>
             <td class="total">0</td>
         </tr>
@@ -61,13 +73,16 @@
             </td>
             <td class="valor">22000</td>
             <td>
-                <button onclick="adicionar(this)"><img src="https://thumbs.dreamstime.com/b/quadrado-liso-mais-o-%C3%ADcone-do-verde-sinal-bot%C3%A3o-s%C3%ADmbolo-positivo-isolado-no-fundo-branco-vetor-eps-143476795.jpg" alt="Butão de Adicionar" class="adicionar"></button>
+                <div class="linhabotao">
+                <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHN7Mbmw1sW5b0x5KulKP3VTZAPzITNSxMOw&s" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                </div>
             </td>
             <td class="total">0</td>
         </tr>
     </table>
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
