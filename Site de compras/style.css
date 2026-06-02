@@ -30,14 +30,14 @@ table {
 .botoes:hover {
     transform: scale(1.3);
 }
-p, .valor, .texto, .total, .qntd {
+p, .valor, .texto, .total, .qntd, .resultado {
     font-size: 18px;
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
-.valor::before, .total::before {
+.valor::before, .total::before, .subtotal::before{
     content: "R$";
 }
 h1 {
@@ -52,4 +52,8 @@ h1 {
 }
 td {
     text-align: center;
+}
+.resultado {
+    display: flex;
+    gap: 10px;
 }
