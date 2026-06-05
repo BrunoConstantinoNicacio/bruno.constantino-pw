@@ -14,8 +14,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="titulo">
+                <h1>🛒LOJINHA DO BRUNO</h1>
+            </div>
+            <div class="menu">
+                <a href="inicio.html">Inicio</a>
+                <a href="#">Carrinho</a>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-    <h1>LOJINHA DO BRUNO</h1>
     <table>
         <tr>
             <td class="texto">Imagem</td>
@@ -38,7 +48,7 @@
                 <div class="linhabotao">
                 <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botaoretirar inativo"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
                 </div>
             </td>
             <td class="total">0</td>
@@ -57,7 +67,7 @@
                 <div class="linhabotao">
                 <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botaoretirar inativo"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
                 </div>
             </td>
             <td class="total">0</td>
@@ -76,7 +86,7 @@
                 <div class="linhabotao">
                 <button onclick="adicionar(this)" class="botoes"><img src="botaodemais.png" alt="Butão de Adicionar" class="adicionar"></button>
                 <div class="qntd">0</div>
-                <button onclick="retirar(this)" class="botoes"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
+                <button onclick="retirar(this)" class="botaoretirar inativo"><img src="botaodemenos.png" alt="Botão de Retirar" class="retirar"></button>
                 </div>
             </td>
             <td class="total">0</td>
