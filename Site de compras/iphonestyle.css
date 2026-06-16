@@ -98,5 +98,26 @@ h2 {
 }
 .botao:hover {
     transform: scale(1.1);
-     color: gray;
+    color: gray;
+}
+.carrinho {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 350px;
+    height: 100vh;
+    background: white;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 20px;
+}
+.carrinho.aberto {
+    right: 0;
+}
+.titulo-car {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: ;
 }
